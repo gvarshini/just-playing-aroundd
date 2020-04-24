@@ -1,0 +1,57 @@
+.container{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-template-rows: 1fr;
+}
+
+.zone{
+	cursor: pointer;
+	text-align: center;
+	font-size: 10em;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	transition: all 0.1s linear;
+
+}
+
+.zone:hover{
+	transform: scale(1);
+}
+
+.green{
+	background: #86A136;
+	grid-column: span 2;
+		
+}
+
+.red{
+	background: #F21700;
+	
+}
+
+.blue{
+	background: #6211EE;
+
+}
+	
+
+
+.yellow{
+	background: #FFBF00;
+	
+}
+
+
+.purple{
+	background: #D602EC;
+	
+}
+	
+
+.brown{
+	background: #7B4A21;
+	
+	
+}
+
